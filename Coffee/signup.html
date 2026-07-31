@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>Signup</title>
+</head>
+<body>
+  
+  <header>
+      <div class="nav_bar">
+
+        <div class="logo">
+          <img src="/coffee-logo-removebg-preview.png" alt="Logo">
+        </div>
+
+        <div class="search_bar">
+          <p class="search_text">Search...</p>
+        </div>
+
+        <div class="nav_address">
+         <p class="nav_link border"><a href="index.html">Home</a></p>
+           <p class="nav_link border"><a href="about.html">About Us</a></p>
+           <p class="nav_link border"><a href="shop.html">Shop</a></p>
+           <p class="nav_link border"><a href="contact.html">Contact</a></p>
+        </div>
+
+            <div>
+              <a href="signup.html" class="signup_btn">Signup</a>
+            </div>   
+      </div>
+    </header>
+
+    <main>
+     
+
+      <form class="signup_form" id="signupForm">
+        <p class="text">Signup Form</p>
+        <button class="form_left_btn" onclick="showSignup()">Signup</button>
+        <button class="form_right_btn" onclick="showLogin(event)">Login</button>
+         <input class="form_text" type="text" placeholder="Enter your Name">
+        <input class="form_text" type="text" placeholder="Email Address">
+        <input class="form_text" type="text" placeholder="Password">
+        <input class="form_text" type="text" placeholder="Confirm">
+        <button type="button" class="btn" onclick="showSignup()">Signup</button>
+        
+      </form>
+
+
+      <form class="Login_form" id="loginForm" style="display: none;">
+        
+        <p class="Login_text">Login</p>
+        <button class="form_left_btn" onclick="showSignup()">Signup</button>
+        <button class="form_right_btn" onclick="showLogin(event)">Login</button>
+        <input class="LO_text" type="text" placeholder="Email Address">
+        <input class="LO_text" type="password" placeholder="Password">
+        <button type="button" class="btn" onclick="showLogin()">Login</button>
+        <button type="button" class="FG_btn">Forgot Password</button>
+        <button type="button" class="btm_btn" onclick="showSignup()">Signup</button>
+      </form>
+
+
+
+    </main>
+
+
+
+    <footer>
+
+      <div class="text_section">
+        <p class="Coffeeshop_tital">Coffee shop</p>
+        <img  class="coffee_pic" src="/coffee_pic-removebg-preview.png" alt="coffee_img">
+      </div>
+
+       <p class="text_area">We believe every cup of coffee has the power to make your day better. From carefully selected beans to perfectly brewed flavors , we serve quality coffee made with passion and love.</p>
+      
+      <div class="location">
+        <img class="location_icon" src="/location_icon-removebg-preview (1).png" alt="location icon">
+        <p class="location_add">Block - E Shastri nagar Ghaziabad</p>
+      </div>
+
+      <div class="contact">
+        <img class="contact_symbol" src="/contect_symbol-removebg-preview.png" alt="contect_img">
+        <p class="contact_no">+91 123 456 7899</p>
+      </div>
+
+      <div class="contact_Email">
+         <i class="fa-regular fa-envelope"></i> 
+        <p class="E-mail">Contact@coffeeShop.com</p>
+      </div>
+
+      <div class="icon_box">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+      
+    </footer>
+
+
+
+</body>
+
+<script>
+function showSignup(event) {
+    if (event) event.preventDefault();
+
+    document.getElementById("signupForm").style.display = "block";
+    document.getElementById("loginForm").style.display = "none";
+}
+
+function showLogin(event) {
+    if (event) event.preventDefault();
+
+    document.getElementById("signupForm").style.display = "none";
+    document.getElementById("loginForm").style.display = "block";
+}
+</script>
+
+</html>

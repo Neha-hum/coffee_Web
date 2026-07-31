@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(214, 222, 238); 
+}
+.nav_bar{
+    height: 70px;
+    width: 100%;
+    background-color:white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+img{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.nav_address{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -50px;
+    width: 40%;
+}
+.nav_link{
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
+.signup_btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ece90c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.signup_btn:hover {
+  background-color: #0056b3;
+}
+
+.border:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.first_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.search_bar{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(8, 8, 8);
+    border-color: black;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+.search_text{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.container{
+    margin-left: 15px;
+    margin-right: 600px;
+    margin-top: 15px;
+}
+.Contact_details{
+    margin-left: 20px;
+}
+.form{
+    width: 40%;
+    margin-left: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+    margin-top: -550px;
+    margin-right: 20px;
+}
+
+.form form{
+display: flex;
+display: flex;
+flex-direction: column;
+}
+
+input , textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;   
+} 
+
+buttom:hover{
+    background: #4b2e1f;
+}
+
+textarea{
+    resize: vertical;
+}
+
+button{
+    padding: 12px;
+    background: #6F4E37;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor : pointer;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    margin-top: 50px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+.Coffeeshop_tital{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 40%;
+}
+.text_section{
+    display: flex;
+}
+.coffee_pic{
+    height: 5%;
+    width: 5%;
+    margin-top: 6px;
+}
+.text_area{
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 16px;
+}
+.location{
+    color: white;
+    display: flex;
+    margin-left: 390px;
+}
+.location_add{
+    color: white;
+}
+.location_icon{
+    height: 15px;
+    width: 15px;
+    margin-top: 10px;
+}
+.contact{
+    display: flex;
+    margin-left: 380px;
+}
+.contact_no{
+    color: white;
+    
+}
+.contact_symbol{
+    height: 40px;
+    width: 40px;
+    margin-top: -1px;
+}
+.contact_Email{
+    color: white;
+    display: flex;
+    margin-left: 400px;
+
+}
+.E-mail{
+    color: white;
+    margin-top: -3px;
+}
+.icon_box{
+    color: white;
+    margin-left: 400px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.contact-list{
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+
+}
+
+.contact-list li {
+    font-size: 18px;
+    color: #333;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.contact-list li:hover{
+    color: #8b4513;
+}

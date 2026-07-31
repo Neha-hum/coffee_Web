@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 222, 238); 
+}
+.nav_bar{
+    height: 70px;
+    width: 100%;
+    background-color:white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+img{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.nav_address{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -50px;
+    width: 40%;
+}
+.nav_link{
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
+
+.signup_btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ece90c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.signup_btn:hover {
+  background-color: #0056b3;
+}
+
+.border:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.first_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+p:hover{
+    opacity: 0.5;
+}
+.search_bar{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(8, 8, 8);
+    border-color: black;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+.search_text{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.menu_img{
+    height: 200px;
+    width: 300px;
+    color:white;
+    margin-left: 500px;
+}
+.content_1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 280px;
+    background-color: rgb(22, 13, 66);
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.content_2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.content_3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.box_img_1{
+    height: 100px;
+    width: 100px;
+    margin-top: -15px;
+}
+.box_img_2{
+    height: 200px;
+    width: 260px;
+    margin-top: -25px;
+}
+.para_1{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+.btn_1{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: gold;
+    border-color: gold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+footer{
+    background-color: black;
+    margin-top: 50px;
+}
+.Coffeeshop_tital{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 40%;
+}
+.text_section{
+    display: flex;
+}
+.coffee_pic{
+    height: 5%;
+    width: 5%;
+    margin-top: 6px;
+}
+.text_area{
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 16px;
+}
+.location{
+    color: white;
+    display: flex;
+    margin-left: 390px;
+}
+.location_add{
+    color: white;
+}
+.location_icon{
+    height: 15px;
+    width: 15px;
+    margin-top: 10px;
+}
+.contact{
+    display: flex;
+    margin-left: 380px;
+}
+.contact_no{
+    color: white;
+    
+}
+.contact_symbol{
+    height: 40px;
+    width: 40px;
+    margin-top: -1px;
+}
+.contact_Email{
+    color: white;
+    display: flex;
+    margin-left: 400px;
+
+}
+.E-mail{
+    color: white;
+    margin-top: -3px;
+}
+.icon_box{
+    color: white;
+    margin-left: 400px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
