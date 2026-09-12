@@ -44,7 +44,6 @@ img{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 40px;
 }
-
 .signup_btn{
   display: inline-block;
   padding: 10px 20px;
@@ -54,11 +53,9 @@ img{
   border-radius: 5px;
   text-align: center;
 }
-
 .signup_btn:hover {
   background-color: #0056b3;
 }
-
 .border:hover{
     background-color: black;
     color: white;
@@ -151,8 +148,6 @@ p:hover{
     margin-left: 10px;
     margin-top: 10px;
 }
-
-
 footer{
     background-color: black;
     margin-top: 50px;

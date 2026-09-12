@@ -53,11 +53,9 @@ img{
   border-radius: 5px;
   text-align: center;
 }
-
 .signup_btn:hover {
   background-color: #0451a3;
 }
-
 .border:hover{
     background-color: black;
     color: white;

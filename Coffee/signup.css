@@ -53,11 +53,9 @@ img{
   border-radius: 5px;
   text-align: center;
 }
-
 .signup_btn:hover {
   background-color: #0056b3;
 }
-
 .border:hover{
     background-color: black;
     color: white;
@@ -169,7 +167,6 @@ p:hover{
 .signup_form {
     display: block 
 }
-
 .Login_form {
     display: none
 }
@@ -215,13 +212,6 @@ p:hover{
 .btm_btn:hover{
   background-color: #69a1dd;
 }
-
-
-
-
-
-
-
 footer{
     background-color: black;
     margin-top: 50px;
